@@ -1,17 +1,11 @@
 # Importing dataframe, math and Datetime libraries.
 import pandas as pd
 import numpy as np 
-import math
 import datetime as dt
-
-# Machine learning libraries
 from sklearn.metrics import  r2_score 
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.ensemble import RandomForestRegressor
-
 from itertools import cycle
-
-#Generating interactive graphs
 import plotly.graph_objects as go
 import plotly.express as px
 from plotly.subplots import make_subplots

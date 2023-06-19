@@ -18,7 +18,7 @@ import yfinance as yf
 def main():
     st.title("Crypto Analysis")
     
-    # User input for stock ticker
+    # User input for crypto ticker
     ticker = st.text_input("Enter crypto ticker (e.g., BTC-USD):", "BTC-USD")
     
     # Fetching stock data
@@ -30,7 +30,6 @@ def main():
     df.rename(columns={"Date": "date", "Open": "open", "High": "high", "Low": "low", "Close": "close"}, inplace=True)
     df.sort_values(by='date', inplace=True)
     
-    # Displaying the stock data
     st.subheader("Crypto Data")
     st.write(df)
     
