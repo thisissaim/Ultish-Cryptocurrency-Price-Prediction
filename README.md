@@ -52,6 +52,6 @@ The Facebooks's Prophet Model is chosen to be the preferred model for both, its 
 
 2. [Stock Price Prediction](https://www.youtube.com/watch?v=0E_31WqVzCY&t=241s&pp=ygU2Y3J5cHRvY3VycmVuY3kgcHJpY2UgcHJlZGljdGlvbiB1c2luZyBtYWNoaW5lIGxlYXJuaW5n)
 
-3. [Time Series Analysis with Facebook's Prophet]([https://www.youtube.com/watch?v=0E_31WqVzCY&t=241s&pp=ygU2Y3J5cHRvY3VycmVuY3kgcHJpY2UgcHJlZGljdGlvbiB1c2luZyBtYWNoaW5lIGxlYXJuaW5n](https://towardsdatascience.com/time-series-analysis-with-facebook-prophet-how-it-works-and-how-to-use-it-f15ecf2c0e3a)https://towardsdatascience.com/time-series-analysis-with-facebook-prophet-how-it-works-and-how-to-use-it-f15ecf2c0e3a)
+3. [Time Series Analysis with Facebook's Prophet](https://towardsdatascience.com/time-series-analysis-with-facebook-prophet-how-it-works-and-how-to-use-it-f15ecf2c0e3a)
 
 4. [How Does the Prophet Model Works?](https://medium.com/analytics-vidhya/how-does-prophet-work-44addaab6148)
