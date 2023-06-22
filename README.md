@@ -4,12 +4,14 @@
 1. ARIMA Model
 2. Support Vector
 3. Random Forests
+4. Ridge Regressor
+5. Prophet Model by Facebook (Preferred)
 
 ## Dataset
 The dataset is taken from Yahoo Finance, originally hosted by CoinMarketCap.
 
 ## Interfacing
-Currently, interfacing of two models (ARIMA and Support Vector) is done through Streamlit Web Application for hosting Machine Learning Models
+Final Interfacing is done through Streamlit of the Prophet Model.
 
 ## Outputs (For a Single Ticker)
 1. Monthwise High-Low Prices
@@ -27,19 +29,29 @@ Currently, interfacing of two models (ARIMA and Support Vector) is done through 
 ### 3. Random Forest (Output via Notebook)
 ![Random Forest](https://github.com/thisissaim/Ultish-Cryptocurrency-Price-Prediction/assets/78817243/2744b51d-4a71-4a35-abb3-9c2691bc33a4)
 
-## Evaluation
-Evaluation is done through the `R2` metric score. Out of these three models, Random Forest achieves the Highest scoring(closest to 1). However, fine tuning needs to be included so as to decrease the error rate of these models.
+
+# Second Commit
+
+## Added code file for Ridge Regression
+## Added code file for Prophet model. (R2 score = 0.92)
+Below is the output of the Prophet model visualization via Streamlit.
+<img width="937" alt="a1" src="https://github.com/thisissaim/Ultish-Cryptocurrency-Price-Prediction/assets/78817243/b82d5239-e2cf-4760-8f0d-9c2b486ad8cb">
+
+<img width="747" alt="a2" src="https://github.com/thisissaim/Ultish-Cryptocurrency-Price-Prediction/assets/78817243/6e2089eb-f261-457c-9167-fa38fb2b15b3">
+
+![a3](https://github.com/thisissaim/Ultish-Cryptocurrency-Price-Prediction/assets/78817243/476731a6-f6c2-44f5-a4e1-9f8080e9e291)
+
+
+<img width="686" alt="a5" src="https://github.com/thisissaim/Ultish-Cryptocurrency-Price-Prediction/assets/78817243/c3dddcd9-a8b4-4409-b945-dbbda991a31b">
+
+## Final Model
+The Facebooks's Prophet Model is chosen to be the preferred model for both, its accuracy and simplicity while implementing.
 
 ## References
 1. [Crypto Finance Dataset From Yahoo](https://finance.yahoo.com/crypto/)
 
 2. [Stock Price Prediction](https://www.youtube.com/watch?v=0E_31WqVzCY&t=241s&pp=ygU2Y3J5cHRvY3VycmVuY3kgcHJpY2UgcHJlZGljdGlvbiB1c2luZyBtYWNoaW5lIGxlYXJuaW5n)
 
-## What's Next ?
-1. For cryptocurrency prediction, which includes time series analysis, these three models were found to be a good fit for prediction. However, ARIMA model does'nt perform well as expected, it's improved version `(SARIMA)` maybe taken into consideration for better results.]
-2. These models right now contain a single or few cryptocurrency for user to choose from. In future commit, the top 100 cryptocurrencies will be included for selection.
-3. One of the models, namely `Facebook's Prophet` is also a very well known model and I'll try to include that particular model for measuring it's accuracy.
-4. Out of all testing models, one particular model with best results will be chosen for final commit.
-5. Rest of the work follows the Web Interfacing part via streamlit. 
+3. [Time Series Analysis with Facebook's Prophet](https://towardsdatascience.com/time-series-analysis-with-facebook-prophet-how-it-works-and-how-to-use-it-f15ecf2c0e3a)
 
-
+4. [How Does the Prophet Model Works?](https://medium.com/analytics-vidhya/how-does-prophet-work-44addaab6148)
