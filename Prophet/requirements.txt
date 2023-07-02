@@ -1,0 +1,7 @@
+streamlit==1.23.1
+pandas==2.0.2
+yfinance==0.2.20
+plotly==5.15.0
+prophet
+pillow==9.4.0
+DateTime
