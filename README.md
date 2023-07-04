@@ -1,4 +1,4 @@
-# Ultish-Cryptocurrency-Price-Prediction
+# Cryptocurrency-Price-Prediction
 
 ## Models Employed (Currently)
 1. ARIMA Model
